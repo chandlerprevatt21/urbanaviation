@@ -8,9 +8,9 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 SECRET_KEY = os.environ['SECRET_KEY']
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.urbanaviationgrp.com', 'urbanaviationgrp.com', 'urban-aviation-bb87a406e57a.herokuapp.com', 'urban-aviation.herokuapp.com', 'https://urban-aviation-bb87a406e57a.herokuapp.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
