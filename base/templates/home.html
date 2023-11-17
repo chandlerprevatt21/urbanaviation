@@ -53,19 +53,26 @@
         </div>
     </body>
     <style>
-        .mission-text {
-            text-align: justify;
+        @media only screen and (min-width: 0px){
+            .mission-text {
+                text-align: justify;
+            }
+            #page {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .photo-row div{
+                padding: 0;
+            }
+            .text-content-container {
+                padding: 30px 50px;
+            }
         }
-        #page {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .photo-row div{
-            padding: 0;
-        }
-        .text-content-container {
-            padding: 30px 50px;
+        @media only screen and (min-width: 992px){
+            .mission-text {
+                text-align: center;
+            }
         }
     </style>
 </html>
